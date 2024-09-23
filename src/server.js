@@ -12,6 +12,11 @@ const init = async () => {
     },
   });
 
+  // Tangani event clientError
+  server.events.on('request.error', (request, err) => {
+    console.error('Request error:', err);
+  });
+
   server.route(routes);
 
   await server.start();
