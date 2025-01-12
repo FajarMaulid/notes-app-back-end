@@ -1,3 +1,5 @@
 notes-api-webserver.pem
 FajarMaulid2_credentials.csv
 node_modules/
+.env
+.prod.env
