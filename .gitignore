@@ -3,3 +3,4 @@ FajarMaulid2_credentials.csv
 node_modules/
 .env
 .prod.env
+src/api/uploads/file
